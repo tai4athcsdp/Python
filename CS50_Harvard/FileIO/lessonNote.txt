@@ -1,0 +1,24 @@
+1. Để mở file trong python ta dùng hàm open()
+    - file = open("names.txt", "w")
+    - tham số thứ 2 ("w"): chỉ mode write khi mở file
+2. Các mode khi mở file
+    - write(w): viết, ghi đè
+    - append(a): nối
+    - read (r): đọc  ====== read là mode mặc định
+3. with keyword
+    - auto open and close the file
+4. Hàm string.rstrip([chars])
+    - Xóa các kí tự của 1 string từ phía bên phải của 1 chuỗi, nếu [chars] không được chỉ định cụ thể, các kí tự khoảng trắng
+    sẽ bị Xóa
+    - các kí tự khoảng trắng trong python bao gồm
+        + dấu cách " "
+        + tab \t
+        + kí tự xuống dòng \n
+        + kí tự khác: \r, \f, \v
+5. Common technique to work with file
+    - khai báo variables để lưu data
+    - open file và append data vào variables đó
+    - sử dụng variables đó cho chương trình
+6. Python cho phép pass 1 function như là 1 argument của 1 function khác.
+7. csv library
+    - reader()
