@@ -1,0 +1,5 @@
+1. Hàm trong python có thể return 2 value ===> không, thực chất đó là 1 tuple chứ ko phải là 2 value
+    - def get_student()
+        name = input("Name:")
+        house = input("House:")
+        return name, house

@@ -22,3 +22,4 @@
 6. Python cho phép pass 1 function như là 1 argument của 1 function khác.
 7. csv library
     - reader()
+8. pillow (PIL) library
