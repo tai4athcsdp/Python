@@ -1,0 +1,6 @@
+1. Unit test
+    - Trong việc phát triền phần mềm, việc viết code để test 
+    chương trình cua chúng ta là việc rất phổ biến
+    - Trong console window, tạo file calculator.py bằng cách gõ code calculator.py 
+    với nội dung như sau: (xem file calculator.py)
+    - Tạo ra chương trình test bằng cách gõ code test_calculator.py

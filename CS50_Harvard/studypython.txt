@@ -44,3 +44,31 @@
 3. Một số hàm của string
 	- trip(): xóa dấu cách
 	- title(): Viết hoa chữ cái đầu
+	- isupper(): Kiểm tra tất cả kí tự trong string có là kí tự hoa hay không
+	- islower(): Kiểm tra tất cả kí tự trong string có là kí tự thường hay không
+	- uppper(): Chuyển string thành chữ hoa
+	- lower(): chuyển string thành chữ thường
+	- replace(oldvalue, newvalue, count): thay 1 string con trong string cha bằng 1 sring mới
+4. Cách kiểm tra 1 giá trị có tồn tại trong 1 list hay không
+	- dùng từ khóa "in"
+		GOOD_STUDENT_NAMES = ["Tai", "Hieu"]
+		if (student n GOOD_STUDENT_NAMES):
+			print("You are a good student!")
+5. Trong python không có khái niệm const, thay vào đó, các biến const
+là các biến thông thường và được viết hoa
+	- ví dụ:  GOOD_STUDENT_NAMES = ["Tai"]  /// GOOD_STUDENT_NAMES được coi là 1 const trong python
+6. Cách nối 2 hoặc nhiều chuỗi
+	- sử dụng toán tử +
+		result_str = str1 + " " + str2
+	- sử dụng formated string
+		result_str = f"{str1} {str2}"
+	- sử dụng join(): hiệu quả khi nối 1 list string
+		a = ["Python", "is", "a", "popular", "language", "for", "programming"]
+		# Use join() method to concatenate list elements
+		# into a single string, separated by spaces
+		res = " ".join(a)
+		print(res) ///   Python is a popular language for programming
+
+
+
+	
