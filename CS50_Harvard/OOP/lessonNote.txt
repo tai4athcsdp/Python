@@ -4,3 +4,6 @@
         house = input("House:")
         return name, house
 2. Tuple thì có tính chất inmutable, tức là không thế thay đổi giá trị được
+
+
+2h08

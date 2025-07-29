@@ -90,36 +90,75 @@
 
 
 ########### charm() FUNCTION ##################################################
+# class Student:
+#     def __init__(self, name, house, patronus):
+#         if not name:  ## name == ""
+#             raise ValueError("Missing name")
+#         if house not in ["Griffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
+#             raise ValueError("Invalid House")
+#         self.name = name
+#         self.house = house
+#         self.partronus = patronus
+#     def __str__(self):
+#         return f"{self.name} from {self.house}"
+#     def charm(self):
+#         match self.partronus:
+#             case "Stag":
+#                 return "Stag Patronus!"
+#             case "Otter":
+#                 return "Otter Patronus!"
+#             case "Jack Russel terrier":
+#                 return "Jack Patronus!"
+#             case _: 
+#                 return "Oh la la!"
+
+# def main():
+#     student = get_student()
+#     print("Expecto Patronum!")
+#     print(student.charm())
+# def get_student():
+#     name = input("Name:")
+#     house = input("House:")
+#     patronus = input("Patronus:")
+#     return Student(name, house, patronus)
+# if __name__ == "__main__":
+#     main()
+
+########### GETTER AND SETTER FUNCTION ##################################################
 class Student:
-    def __init__(self, name, house, patronus):
-        if not name:  ## name == ""
-            raise ValueError("Missing name")
-        if house not in ["Griffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
-            raise ValueError("Invalid House")
+    def __init__(self, name, house):
         self.name = name
         self.house = house
-        self.partronus = patronus
     def __str__(self):
         return f"{self.name} from {self.house}"
-    def charm(self):
-        match self.partronus:
-            case "Stag":
-                return "Stag Patronus!"
-            case "Otter":
-                return "Otter Patronus!"
-            case "Jack Russel terrier":
-                return "Jack Patronus!"
-            case _: 
-                return "Oh la la!"
+    
+    @property
+    def name(self):
+        return self._name
+    
+    @name.setter
+    def name(self, name):
+        if not name:
+            raise ValueError("Mission name")
+        self._name = name
 
+    @property
+    def house(self):
+        return self._house
+    @house.setter
+    def house(self, house):
+        if house not in ["Griffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
+            raise ValueError("Invalid House")
+        self._house = house
+    
 def main():
     student = get_student()
-    print("Expecto Patronum!")
-    print(student.charm())
+    print(student)
 def get_student():
     name = input("Name:")
     house = input("House:")
-    patronus = input("Patronus:")
-    return Student(name, house, patronus)
+    return Student(name, house)
 if __name__ == "__main__":
     main()
+
+
