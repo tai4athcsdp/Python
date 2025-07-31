@@ -1,0 +1,7 @@
+1. Trong python, ta có thể đọc giá trị biến global ở trong thân 1 hàm 
+nhưng không thế thay đổi giá trị của biến đó ở trong thân hàm đó. Thay vào đó, sử dụng từ khóa global
+2. Trong lập trình nói chung, ta nên hạn chế việc sử dụng biến global bởi vì mọi thứ có thể trở nên lộn xộn
+    - Khó nhận biết được biến global nằm chính xác ở đâu, ở file nào, hàm nào thay đổi giá trị của biến...
+3. Trong Python, biến constant đc quy ước viết hoa toàn bộ tên theo quy ước. Mặc dù giá trị của nó có thể thay đổi
+nhưng theo quy ước, biến có tên viết hoa toàn bộ thì được coi là 1 hằng số và ta không nên thay đổi nó (mặc dù nó có thể thay đổi)
+4. Ta có thể sử dụng type hint và thư viện mypy để kiểm tra tính đúng đắn về mặt kiểu dữ liệu của chương trình
