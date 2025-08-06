@@ -5,3 +5,6 @@ nhưng không thế thay đổi giá trị của biến đó ở trong thân hà
 3. Trong Python, biến constant đc quy ước viết hoa toàn bộ tên theo quy ước. Mặc dù giá trị của nó có thể thay đổi
 nhưng theo quy ước, biến có tên viết hoa toàn bộ thì được coi là 1 hằng số và ta không nên thay đổi nó (mặc dù nó có thể thay đổi)
 4. Ta có thể sử dụng type hint và thư viện mypy để kiểm tra tính đúng đắn về mặt kiểu dữ liệu của chương trình
+
+
+====1:27 unpack the dictionary====
