@@ -1,0 +1,10 @@
+1. Có thể đặt id cho các thẻ html để style chúng 1 cách riêng lẻ.
+giá trị id là unique (không trùng lặp)
+2. Có thể đặt class cho các thẻ html để style chúng 1 cách group.
+giá trị class là not unique (có thể trùng lặp)
+3. Khái niệm specificity (độ ưu tiên): trình duyệt sẽ xét giá trị thuộc 
+tính nào "mạnh nhất" dựa vào độ ưu tiên
+    - inline style
+    - id
+    - class
+    - type

@@ -1,4 +1,7 @@
+#foo {
+    color:blue;
+    text-align: center;
+}
 h1 {
-            color:rgb(19, 227, 74);
-            text-align:center
-        }
+    color:darkgreen;
+}
