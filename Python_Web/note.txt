@@ -8,3 +8,12 @@ tính nào "mạnh nhất" dựa vào độ ưu tiên
     - id
     - class
     - type
+4. Cách dùng thư viện bootstrap
+    - vào trang getbootstrap.com, copy <link> tag rồi đưa vào head của file html
+    - copy component rồi dùng===> easy
+5. Cách dùng biến sass trong html
+    - tạo file .scss. Biến trong .scss bắt đầu bằng kí hiệu $
+    - cài sass live server trong VSCode, khởi động lại 
+    - Kích vào nút "Watch" để biên dịch file .scss ra file .class
+    - Dùng thẻ link để link file css vào file html
+        + <link ref="style sheet" href="variables.css"> </link>
